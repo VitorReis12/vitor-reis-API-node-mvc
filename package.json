@@ -1,0 +1,17 @@
+{
+  "name": "api-node-mvc",
+  "version": "1.0.0",
+  "description": "API REST com Node.js, Express e MySQL em arquitetura MVC (sem ORM) - PW3",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mysql2": "^3.11.0"
+  }
+}
